@@ -1,2 +1,0 @@
-# Hackathron
-Hackathron project updates
