@@ -5,7 +5,7 @@ from langdetect import detect, DetectorFactory
 DetectorFactory.seed = 0
 
 # Hugging Face API setup
-API_TOKEN = "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"  # Replace this with your actual token
+API_TOKEN = "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"
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
 # Language codes and names
@@ -185,3 +185,4 @@ if __name__ == "__main__":
             translated = translate(user_input, src_lang, tgt_lang)
             print(f"{LANGUAGE_NAMES[tgt_lang]}: {translated}")
         print()  # blank line for readability
+
